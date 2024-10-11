@@ -15,10 +15,10 @@ public class FlowerColorTest {
 
     @Test
     public void testToString() {
-        Assertions.assertTrue("#FF0000".equals
-        (FlowerColor.RED.toString()));
-        Assertions.assertTrue("#0000FF".equals
-        (FlowerColor.BLUE.toString()));
+        Assertions.assertTrue("#FF0000".equals(
+            FlowerColor.RED.toString()));
+        Assertions.assertTrue("#0000FF".equals(
+            FlowerColor.BLUE.toString()));
     }
 
     @Test

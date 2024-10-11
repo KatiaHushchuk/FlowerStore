@@ -24,14 +24,14 @@ public class Store {
             boolean check = true;
             int counter = 0;
             for (FlowerPack flowerPack : el.getFlowerPacks()) {
-                if (! flowerTypes.contains(flowerPack.getFlower()
+                if (!flowerTypes.contains(flowerPack.getFlower()
                 .getFlowerType())) {
                     check = false;
                 }
                 counter += flowerPack.getQuantity();
             }
-            if (check && counter <= quantityMax &&
-            counter >= quantityMin) {
+            if (check && counter <= quantityMax
+            && counter >= quantityMin) {
                 result.add(el);
             }
         }

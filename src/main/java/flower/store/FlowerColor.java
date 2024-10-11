@@ -1,5 +1,8 @@
 package flower.store;
 
+import lombok.Getter;
+
+@Getter
 public enum FlowerColor {
     /**
      * Flower colors.
